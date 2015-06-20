@@ -1,0 +1,54 @@
+# built application files
+*.ap_
+
+# Android Annotations
+*.apt_generated
+
+# files for the dex VM
+*.dex
+
+# Mac files
+.DS_Store
+
+# Java class files
+*.class
+
+# generated files
+bin/
+build/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+project.properties
+
+# Eclipse project files
+.classpath
+.project
+.factorypath
+.settings/
+.externalToolBuilders/
+.repository/
+
+# More Eclipse crud
+hs_err_pid*.log
+
+# Android Studio Files
+*.iml
+.idea/
+
+# KDE file manager metadata
+.directory
+
+# Gradle files
+.gradle/
+
+# Signing Files
+production.vars
+
+# Other
+**/.repository/*
+
+# Crashlytics
+**/com_crashlytics_export_strings.xml
+**/crashlytics-build.properties

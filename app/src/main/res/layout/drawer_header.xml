@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@color/green_500"
+        android:contentDescription="@string/image_view"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <com.aminalzanki.materialskeleton.widget.RoundedImageView
+            android:id="@+id/user_photo"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_above="@+id/header_text"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_user" />
+
+        <LinearLayout
+            android:id="@+id/header_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alumni Hisbi MMU"
+                android:textColor="@color/grey_white_1000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="alumni.mmu@gmail.com"
+                android:textColor="@color/grey_white_1000" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

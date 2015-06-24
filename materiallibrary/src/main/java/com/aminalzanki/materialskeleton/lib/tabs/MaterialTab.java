@@ -330,6 +330,11 @@ public class MaterialTab implements View.OnTouchListener
         return this.position;
     }
 
+    public void setPosition(final int position)
+    {
+        this.position = position;
+    }
+
     private void setIconAlpha(final int paramInt)
     {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)

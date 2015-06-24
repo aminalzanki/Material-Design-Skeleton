@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Tab-->
+    <dimen name="material_tab_title">14sp</dimen>
+    <dimen name="material_tab_indicator">2dp</dimen>
+    <dimen name="material_tab_icon">24dp</dimen>
+
+</resources>

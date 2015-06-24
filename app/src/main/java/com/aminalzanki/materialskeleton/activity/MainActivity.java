@@ -24,7 +24,11 @@ import android.widget.ListView;
 
 import com.aminalzanki.materialskeleton.R;
 import com.aminalzanki.materialskeleton.adapter.DrawerAdapter;
+import com.aminalzanki.materialskeleton.fragment.FragmentFive;
+import com.aminalzanki.materialskeleton.fragment.FragmentFour;
 import com.aminalzanki.materialskeleton.fragment.FragmentOne;
+import com.aminalzanki.materialskeleton.fragment.FragmentThree;
+import com.aminalzanki.materialskeleton.fragment.FragmentTwo;
 import com.aminalzanki.materialskeleton.ui.Items;
 
 public class MainActivity extends BaseActivity
@@ -169,6 +173,16 @@ public class MainActivity extends BaseActivity
                 this.mFragment = new FragmentOne();
                 break;
             case 2:
+                this.mFragment = new FragmentTwo();
+                break;
+            case 3:
+                this.mFragment = new FragmentThree();
+                break;
+            case 4:
+                this.mFragment = new FragmentFour();
+                break;
+            case 5:
+                this.mFragment = new FragmentFive();
                 break;
             default:
                 this.mFragment = new Fragment();

@@ -9,6 +9,10 @@
 
     <!--Fragment-->
     <string name="fragment_one_title">Fragment One</string>
+    <string name="fragment_two_title">Fragment Two</string>
+    <string name="fragment_three_title">Fragment Three</string>
+    <string name="fragment_four_title">Fragment Four</string>
+    <string name="fragment_five_title">Fragment Five</string>
 
     <!--Drawer Layout-->
     <string name="drawer_opened">Drawer Opened</string>

@@ -194,7 +194,7 @@ public class MaterialTab implements View.OnTouchListener
     {
         if (this.mTitle != null)
         {
-            this.mTitle.setText(this.titleColor);
+            this.mTitle.setTextColor(this.titleColor);
         }
 
         if (this.mIcon != null)

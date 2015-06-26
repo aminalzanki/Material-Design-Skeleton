@@ -14,6 +14,15 @@
     <string name="fragment_four_title">Fragment Four</string>
     <string name="fragment_five_title">Fragment Five</string>
 
+    <!--Fragment One-->
+    <string name="tab_with_text">Tabs with text</string>
+    <string name="swipe_tab_with_text">Swipable tabs with text</string>
+    <string name="tab_with_icon">Tabs with icon</string>
+    <string name="swipe_tab_with_icon">Swipeablee tabs with icon</string>
+
+    <string name="custom_tab_title">Section</string>
+    <string name="tab_fragment_content">Fragment contents</string>
+
     <!--Drawer Layout-->
     <string name="drawer_opened">Drawer Opened</string>
     <string name="drawer_closed">Drawer Closed</string>

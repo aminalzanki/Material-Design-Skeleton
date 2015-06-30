@@ -28,7 +28,7 @@
     <string name="drawer_closed">Drawer Closed</string>
 
     <string-array name="drawer_titles">
-        <item>Fragment 1</item>
+        <item>Tabs</item>
         <item>Fragment 2</item>
         <item>Fragment 3</item>
         <item>Fragment 4</item>

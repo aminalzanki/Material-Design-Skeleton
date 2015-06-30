@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:adjustViewBounds="true"
-        android:background="@color/green_500"
+        android:background="@color/teal_400"
         android:contentDescription="@string/image_view"
         android:scaleType="centerCrop" />
 
@@ -34,13 +34,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Alumni Hisbi MMU"
+                android:text="Nik Muhammad Amin"
                 android:textColor="@color/grey_white_1000" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="alumni.mmu@gmail.com"
+                android:text="nik.muhammad.amin@gmail.com"
                 android:textColor="@color/grey_white_1000" />
 
         </LinearLayout>

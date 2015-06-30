@@ -6,6 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.aminalzanki.materialskeleton.R;
 import com.aminalzanki.materialskeleton.activity.BaseActivity;
@@ -31,6 +33,8 @@ public class TabTextActivity extends BaseActivity implements MaterialTabListener
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         this.setSupportActionBar(toolbar);
+
+        this.getSafeActionBar().setDisplayHomeAsUpEnabled(true);
 
         this.mTabHost = (MaterialTabHost) findViewById(R.id.tab_host);
         this.mPager = (ViewPager) findViewById(R.id.pager);
@@ -109,5 +113,23 @@ public class TabTextActivity extends BaseActivity implements MaterialTabListener
         {
             return getString(R.string.custom_tab_title) + " " + position;
         }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+            case android.R.id.home:
+                this.finish();
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        return true;
     }
 }
